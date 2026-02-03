@@ -1,0 +1,88 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(61, 58, 58);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.post {
+    background-color: white;
+    width: 500px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.header{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+       
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+span.icon-css {
+   font-size: 1.7em;
+    margin-left: 8px;
+
+}
+
+span.text {
+    height: 80%;
+    font-size: 1em;
+    padding: 8px 10px 0px 10px;
+}
+
+span.point {
+    margin: 8px 15px 8px 0px;
+    align-self: center;
+    font-size: 1.5em;
+
+}
+
+img {
+    width: 100%;
+    height: 60%;
+
+}
+
+.buttons {
+    width: 100%;
+    height: 7%;
+    margin-top: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+span.heart,
+span.comment,
+span.paper,
+span.save {
+    font-size: 1.5em;
+}
+
+.body {
+    width: 100%;
+    height: 30%;
+    padding: 5px;
+    font-size: 1em;    
+}
