@@ -1,6 +1,0 @@
-{
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "features": {},
-
-  "name": "Language English", "settings": { "locale": "en" }, "extensions": [ "ms-vscode.vscode-loc-en" ]
-}
